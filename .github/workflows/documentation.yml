@@ -16,6 +16,7 @@ jobs:
         with:
           node-version: 18.16.0
           cache: yarn
+          cache-dependency-path: ./DocusaurusDemo/yarn.lock
       - name: Build DocusaurusDemo
         working-directory: DocusaurusDemo
         run: |
