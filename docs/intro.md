@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Tutorial Intro (Edited on GitHub.com)
 
-Edited by another member.
+Edited by another member. 1
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
