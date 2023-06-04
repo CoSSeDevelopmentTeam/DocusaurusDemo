@@ -16,13 +16,17 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/DocusaurusDemo/',
 
+  trailingSlash: false,
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'CoSSeDevelopmentTeam', // Usually your GitHub org/user name.
   projectName: 'DocusaurusDemo', // Usually your repo name.
 
+  deploymentBranch: 'gh-pages',
+
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
