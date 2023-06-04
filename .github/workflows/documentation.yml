@@ -11,12 +11,11 @@ jobs:
     name:  Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 18.16.0
+          node-version: 18.x
           cache: yarn
-          cache-dependency-path: ./DocusaurusDemo/yarn.lock
       - name: Build DocusaurusDemo
         working-directory: DocusaurusDemo
         run: |
