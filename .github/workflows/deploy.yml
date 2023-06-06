@@ -10,6 +10,8 @@ on:
 jobs:
   deploy:
     name: Deploy to GitHub Pages
+    permissions:
+      deployments: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
