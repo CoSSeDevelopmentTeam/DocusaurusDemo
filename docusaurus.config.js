@@ -75,6 +75,11 @@ const config = {
         },
         items: [
           {
+            href: 'about-us.html',
+            label: 'GitHub',
+            position: 'left',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
@@ -94,6 +99,10 @@ const config = {
           {
             title: 'Docs',
             items: [
+              {
+                label: 'About us',
+                to: 'about-us.html',
+              },
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
