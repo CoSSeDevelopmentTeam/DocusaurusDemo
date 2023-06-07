@@ -136,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. For more details about copyrights, visit <a href="https://gizmodo-woods.github.io/about-us" target="_blank">here</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
